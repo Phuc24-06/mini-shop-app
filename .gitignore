@@ -1,0 +1,59 @@
+# Gradle
+.gradle/
+build/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+.gradle/
+local.properties
+
+# Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+
+# Log/Temp
+*.log
+*.temp
+*.swp
+*.swo
+
+# Keystore files
+*.jks
+*.keystore
+
+# Firebase/Google services (đừng public file này)
+app/google-services.json
+app/google-services.plist
+
+# Crashlytics/Analytics
+fabric.properties
+
+# Kotlin
+*.class
+*.kt~
+*.kts~
+
+# Generated files
+captures/
+output.json
+*.apk
+*.ap_
+*.aab
+
+# NDK
+obj/
+*.so
+
+# IntelliJ/Android Studio
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+
+# Other
+.env
+
